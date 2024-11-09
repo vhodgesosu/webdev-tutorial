@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# IDE-specific files
+.idea/
+.vscode/
+.history/  # if using a file history extension
+
+# Webstorm
+*.iml
+
+# TypeScript
+*.tsbuildinfo
+
+# TypeScript definitions from DefinitelyTyped, automatically included by some tools
+typings/
+
+# Routing cache getting auto-created by express
+._route
+
+# Miscellaneous
+.sass-cache/
+.editorconfig
